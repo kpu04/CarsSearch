@@ -1,0 +1,150 @@
+.mainPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.contoureButton {
+  width: 295px;
+  height: 73px;
+  flex-shrink: 0;
+  background: none;
+  border: 2px solid #e1b168;
+  color: #e1b168;
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px; /* 150% */
+  letter-spacing: 0.2px;
+}
+.mainSection,
+.informationSection {
+  width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 60px;
+}
+.mainSection {
+  background: #292e36;
+}
+.informationSection,
+.offerSection {
+  background: #fff8f5;
+}
+.mainText {
+  color: #fff;
+  font-family: "Josefin Sans";
+  width: 570px;
+}
+.mainP {
+  color: #fff;
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.2px;
+}
+.mainH {
+  color: #fff;
+  font-family: "Cormorant Infant";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110px; /* 110% */
+  letter-spacing: 0.2px;
+}
+
+.deliciousStory {
+  width: 560px;
+  color: #555;
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.2px;
+}
+.blockYear {
+  display: flex;
+  flex-direction: row;
+}
+.year {
+  width: 247px;
+}
+.lanterns {
+  width: 1440px;
+margin: 0 auto;
+}
+.offerSection {
+  width: 1400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 60px;
+  margin: 0 auto;
+}
+.offerText {
+  color: #454a52;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.2px;
+  text-align: justify;
+}
+@media screen and (max-width: 1438px) {
+  .mainSection,
+  .informationSection, .offerSection {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .lanterns {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1438px) {
+  .informationSection img {
+    display: none;
+  }
+  .deliciousStory {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .offerSection {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .mainSection img {
+    display: none;
+  }
+  .mainSection, .offerSection, .informationSection{
+    justify-content: flex-start;
+    padding: 20px 8px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .blockYear {
+    flex-direction: column;
+    text-align: justify;
+  }
+  .mainH {
+    font-size: 60px;
+  }
+  .year {
+    width: 90%;
+  }
+}

@@ -1,0 +1,77 @@
+.registration {
+  width: 1400px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-image: url("../public/Images/loginFone.png");
+  background-size: cover;
+}
+@media screen and (max-width: 1438px) {
+  .registration {
+    width: 100%;
+  }
+}
+.registration div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(46, 46, 46, 0.849);
+  width: 90%;
+  height: 90%;
+  gap: 12px;
+}
+
+@media screen and (max-width: 1065px) {
+  .registration .regButton {
+    flex-direction: column-reverse;
+  }
+}
+.registration span {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 80%;
+  justify-content: center;
+}
+.registration input[type="text"],
+.registration input[type="email"],
+.registration input[type="password"] {
+  width: 50%;
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.registration input[type="checkbox"] {
+  transform: scale(1.5);
+  margin-right: 10px;
+}
+
+.registration label {
+  font-size: 16px;
+}
+.checkbox {
+  background: none;
+  display: flex;
+  flex-direction: row;
+}
+.registration h1 {
+  color: beige;
+}
+
+@media screen and (max-width: 1144px) {
+  .registration span {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .registration input[type="text"],
+  .registration input[type="email"],
+  .registration input[type="password"] {
+    width: 100%;
+  }
+}

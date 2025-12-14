@@ -1,0 +1,106 @@
+.logo {
+  width: 300px;
+  height: 170px;
+}
+.footer {
+  width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background: #292e36;
+}
+.footerBlock {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  gap: 20px;
+}
+.firstBlock,
+.thirdBlock {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: auto;
+  min-width: 150px; /* Ensure a minimum width */
+}
+
+.secondBlock {
+  flex: 1; /* Allow secondBlock to grow */
+  min-width: 300px; /* Minimum width for input area */
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.thirdBlock {
+  text-align: right;
+}
+
+input {
+  width: 100%; 
+  max-width: 320px; 
+  height: 65px;
+  background: none;
+  border: 1px solid #e1b168;
+  padding: 0 10px; 
+}
+
+.emailInput {
+  display: flex; 
+  gap: 10px;
+}
+
+.email {
+  text-align: center;
+  margin-bottom: 10px; 
+}
+
+.emailInput:hover {
+  box-shadow: 0 0 5px #292e36;
+  color: #856a42;
+}
+
+.contoureButton {
+  padding: 10px 20px; 
+  border: 1px solid #e1b168;
+  background: transparent; 
+  cursor: pointer; }
+@media screen and (max-width: 1398px) {
+  .footer,
+  .footerBlock {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .emailInput {
+    flex-direction: column;
+    align-items: center;
+  }
+  .reviewText {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footerBlock,
+  .emailInput {
+    flex-direction: column;
+    align-items: center;
+  }
+.footer{
+  padding: 20px 8px;
+}
+  .firstBlock,
+  .thirdBlock {
+    align-items: center;
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "photo": "./Images/Vector (1).svg",
+    "h2": "Locate Us",
+    "p": "Riverside 25, San Diego, California"
+  },
+  {
+    "photo": "./Images/IMAGE.svg",
+    "h2": "Open Hours",
+    "p": "Mon To Fri 9:00 AM - 9:00 PM"
+  },
+  {
+    "photo": "./Images/Vector (2).svg",
+    "h2": "Reservation",
+    "p": "restaurantate@gmail.com"
+  }
+]

@@ -1,0 +1,105 @@
+.reviewBlock {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 20px;
+  overflow-x: auto;
+  justify-content: center;
+}
+
+.review {
+  width: 470px;
+  padding: 20px;
+  flex-shrink: 0;
+  background: #2a2d34;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.review:hover {
+  transform: translateY(-5px);
+}
+.carousel {
+  width: 100%;
+}
+.reviewHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  padding-bottom: 10px;
+  color: #fff;
+  font-family: "Cormorant Infant", serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.reviewHeader img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewText {
+  color: #e0e0e0;
+  font-family: "Cormorant Infant", serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+.carouselControls {
+  padding: 20px 5px;
+  margin-left: 120px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.carouselButton {
+  width: 120px;
+  height: 45px;
+  border: 2px solid #e1b168;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.2px;
+  background: #e1b168;
+  color: #2a2d34;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1438px) {
+  .reviewSection {
+    width: 100%;
+  }
+  .carousel {
+    height: 300px;
+  }
+  .review {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 1146px) {
+  .review {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 811px) {
+  .review {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .reviewBlock {
+    display: none;
+  }
+  .reviewSection {
+    padding: 20px 8px 40px;
+  }
+}

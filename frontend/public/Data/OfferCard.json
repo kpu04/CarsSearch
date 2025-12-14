@@ -1,0 +1,14 @@
+[
+  {
+    "offerPhoto": "./images/OfferCard1.png",
+    "h3": "Opened 24/7"
+  },
+  {
+    "offerPhoto": "./images/OfferCard2.png",
+    "h3": "Special Offer"
+  },
+  {
+    "offerPhoto": "./images/OfferCard3.png",
+    "h3": "Car Search"
+  }
+]

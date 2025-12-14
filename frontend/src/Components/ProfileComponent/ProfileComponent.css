@@ -1,0 +1,102 @@
+.profileComponent {
+  width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff8f5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  margin: 0 auto;
+}
+.imageBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-content: center;
+}
+.profileImage {
+  width: 280px;
+  height: 280px;
+}
+a {
+  text-decoration: none;
+  color: #e1b168;
+}
+.informationBlock {
+  width: 50%;
+  padding: 0px 40px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 25px;
+  border-right: 2px solid #413d3d;
+}
+.bigText {
+  color: #3f4349;
+  font-family: "Cormorant Infant";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  margin: 0px;
+}
+.smallText {
+  color: #413d3d;
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  margin: 0px;
+}
+.smallInformationBlock {
+  gap: 5px;
+}
+.emailBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.profileBlock {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 1438px) {
+  .profileComponent {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1130px) {
+  .profileComponent {
+    flex-direction: column;
+    align-items: flex-start;padding: 20px 8px;
+  }
+  .informationBlock {
+    border-right: none;
+  }
+  .profileBlock {
+    width: 100%;
+    border-bottom: 2px solid #413d3d;
+  }
+}
+@media screen and (max-width: 710px) {
+  .profileBlock {
+    flex-direction: column;
+  }
+  .imageBlock,
+  .informationBlock,
+  .emailBlock {
+    width: 95%;
+    padding: 20px 0px;
+  }
+  .imageBlock {
+    justify-content: center;
+  }
+  .bigText {
+    font-size: 30px;
+  }
+}

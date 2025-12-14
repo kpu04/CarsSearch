@@ -1,0 +1,66 @@
+.authorization {
+  width: 1400px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-image: url("../public/Images/loginFone.png");
+  background-size: cover;
+}
+@media screen and (max-width: 1438px) {
+  .authorization {
+    width: 100%;
+  }
+}
+.authorization label {
+  font-size: 22px;
+  font-weight: 600;
+  color: antiquewhite;
+}
+
+.authorization div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(41, 46, 54, 0.849);
+  width: 70%;
+  height: 70%;
+  gap: 12px;
+}
+.authorization span {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.button, .registration .regButton .button {
+  width: 340px;
+  height: 60px;
+  flex-shrink: 0;
+  background: none;
+  border: 2px solid #e1b168;
+  color: #e1b168;
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.2px;
+}
+
+.authorization h1 {
+  color: beige;
+}
+@media screen and (max-width: 1025px) {
+  .authorization span {
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 548px) {
+  .authorization div, .authorization label, .authorization input, .button, .authorization span Link{
+    width: 90%;
+  }
+}

@@ -1,0 +1,29 @@
+.MenuPage {
+  position: relative;
+}
+.reviewSection {
+  width: 1400px;
+  padding: 20px 20px 40px;
+  background: #292e36;
+  margin: 0 auto;
+  color: white;
+  gap: 50px;
+}
+.littleLight {
+  color: #fff;
+  font-family: "Cormorant Infant";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 37.5px; /* 150% */
+  letter-spacing: 0.25px;
+}
+.filters {
+  width: 400px;
+  padding-top: 15px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

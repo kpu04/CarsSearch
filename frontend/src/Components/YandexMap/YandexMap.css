@@ -1,0 +1,10 @@
+.yandex-map {
+    width: 500px; 
+    height: 300px; 
+}
+
+@media screen and (max-width: 515px) {
+    .yandex-map {
+        width: 100%; 
+    }
+}

@@ -1,0 +1,55 @@
+.comment {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  background: #2a2d34;
+}
+.comment input {
+  width: 70%;
+  background: #1d1f24;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.comment form:hover {
+  transition: transform 0.3s;
+}
+.comment input:active {
+  border: 2px solid #e1b168;
+}
+.commet img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.commentPhoto {
+  width: 45px;
+  height: 45px;
+  border-radius: 20px;
+}
+.reviewText {
+  color: #e0e0e0;
+  font-family: "Cormorant Infant", serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+@media screen and (max-width: 752px) {
+  .comment button {
+    width: 120px;
+  }
+}
+@media screen and (max-width: 421px) {
+  .comment img {
+    display: none;
+  }
+  .comment {
+    flex-direction: column;
+  }
+  .comment button {
+    width: 220px;
+  }
+}

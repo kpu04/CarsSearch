@@ -1,0 +1,72 @@
+.profile {
+  width: 1400px;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+.delivery,
+.oldOrder {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  padding: 20px 8px;
+  background: #fff8f5;
+}
+.delivery {
+  flex-direction: column;
+}
+
+.oldOrder {
+  flex-direction: row;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Josefin Sans";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 150% */
+  letter-spacing: 0.2px;
+}
+h2,
+button,
+Link {
+  font-family: "Josefin Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.2px;
+}
+p {
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.2px;
+}
+.delivery {
+  border-bottom: 1px solid #0503037b;
+}
+@media screen and (max-width: 1438px) {
+  .profile,
+  .oldOrder,
+  .delivery {
+    width: 100%;
+    padding: 20px 8px;
+  }
+  .profile .emptyCart {
+    padding: 0px;
+    width: 100%;
+  }
+}
+.oldOrder {
+  width: 100%;
+}
+@media screen and (max-width: 500px) {
+  .delivery {
+    padding: 20px 8px;
+  }
+}

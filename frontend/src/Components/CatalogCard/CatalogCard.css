@@ -1,0 +1,167 @@
+.menuItem {
+  display: flex;
+  flex-direction: column;
+  width: 310px;
+  /* height: 450px; */
+  justify-content: space-between;
+}
+.menuItemHorizontal {
+  flex-direction: row;
+  width: 680px;
+  gap: 20px;
+}
+
+.menuCategory {
+  width: 1400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.textMenu {
+  height: 200px;
+}
+.menuPhoto {
+  width: 300px;
+  height: 300px;
+}
+title {
+  color: #292e36;
+  font-family: "Cormorant Infant";
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50.4px;
+  letter-spacing: 0.2px;
+  position: absolute;
+}
+.description {
+  color: #555;
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  overflow: hidden;
+  height: 150px;
+}
+.menuCard {
+  width: 1400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.titleUnder {
+  border-top: 2px solid #e1b168;
+  border-bottom: 2px solid #e1b168;
+  width: 120px;
+}
+.basketBlock {
+  position: relative;
+  left: 230px;
+  bottom: -40px;
+  z-index: 100;
+}
+.emptyBasket {
+  display: none;
+}
+.fullBasket {
+  display: none;
+}
+@media screen and (max-width: 1438px) {
+  .menuCard,
+  .menuCategory,
+  .menuSection {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .menuItem {
+    width: 22%;
+  }
+  .menuPhoto {
+    width: 270px;
+    height: 270px;
+  }
+  .menuItem .filleadButton {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .menuItem {
+    width: 22%;
+  }
+  .menuPhoto {
+    width: 200px;
+    height: 200px;
+  }
+  .menuItem .filleadButton {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .menuCategory {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  .menuItem {
+    width: 45%;
+  }
+  .menuCategory {
+    padding: 20px 8px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .menuItem {
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .menuItem {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.catalog {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+.price {
+  color: #2a323c;
+  font-family: "Josefin Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.2px;
+  margin-top: 10px;
+}
+.description {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: justify;
+}

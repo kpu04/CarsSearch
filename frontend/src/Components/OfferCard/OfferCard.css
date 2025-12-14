@@ -1,0 +1,34 @@
+.offerCard {
+  width: 254px;
+  height: 254px;
+  border: 20px solid rgba(50, 56, 65, 0.36);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  color: #e1b168;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.2px;
+  flex-direction: column;
+}
+.offerCardBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
+  
+}
+@media screen and (max-width: 1438px) {
+  .offerSection {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 867px) {
+  .offerCardBlock {
+    flex-wrap: wrap;
+  }
+}
